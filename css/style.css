@@ -1,0 +1,28 @@
+/*стандартные стили для любого сайта*/
+/*GENERAL SETTINGS START*/
+body{
+	background: #fff;
+	margin: 0 auto; 
+	/*центрование блока, у которого есть ширина. 0 - сверху снизу отступов нет. не флопнутые элементы*/
+	font: 12px/1 arial, helvetica, sans-serif;
+	width: 700px;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited{
+	text-decoration: none;
+}
+ul, ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*GENERAL SETTINGS END*/
